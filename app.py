@@ -27,7 +27,7 @@ st.write("Chatbot querying Wikipedia, Arxiv and DuckDuckGo")
 
 if "messages" not in st.session_state:
     st.session_state["messages"]=[
-        {"role":"assistant","content":"Hello! I am a chatbot that can query Wikipedia, Arxiv and DuckDuckGo. Ask me anything!"}
+        {"role":"assistant","content":"Hello! I am a search engine chatbot that can query Wikipedia, Arxiv and DuckDuckGo. Ask me anything!"}
     ]
     
 for msg in st.session_state["messages"]:
